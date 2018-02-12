@@ -1,0 +1,8 @@
+From: Chris Warburton
+Date: Mon, 12 Feb 2018 14:25:05 +0000
+State: new
+Subject: Run AstPlugin during GHC bootstrapping
+Message-Id: <f3420cfc407ebe54-0-artemis@nixos>
+
+When GHC is bootstrapping itself (i.e. compiling its own components) we
+should ensure that the AstPlugin is installed and invoked.

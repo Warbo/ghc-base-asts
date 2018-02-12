@@ -1,0 +1,9 @@
+From: Chris Warburton
+Date: Mon, 12 Feb 2018 14:23:59 +0000
+State: new
+Subject: Get GHC building itself
+Message-Id: <a92a79922a9b91cd-0-artemis@nixos>
+
+The AstPlugin runs when GHC is compiling something, so I would imagine
+that the first step to extracting base ASTs is to get GHC compiling
+itself.

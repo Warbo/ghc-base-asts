@@ -1,0 +1,11 @@
+From: Chris Warburton
+Date: Mon, 12 Feb 2018 14:25:47 +0000
+State: new
+Subject: Output ASTs from base (at least)
+Message-Id: <ae68b0ff536689b7-0-artemis@nixos>
+
+We want the ASTs from the 'base' package, formatted nicely as JSON.
+
+If we get *more* than this, e.g. all of GHC, then there's no point
+filtering to just the base package; consumers can do that after if they
+like.

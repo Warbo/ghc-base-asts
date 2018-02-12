@@ -1,0 +1,3 @@
+Dump out ASTs from the Haskell 'base' package. This is slightly tricky, since
+the base package is used by GHC, so it can't be built using cabal like normal,
+non-"bootstrap" packages, which means we can't just use AstPlugin.
